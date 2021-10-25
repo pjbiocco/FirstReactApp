@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import Projects from './Projects';
+import ProjectGroup from './ProjectGroup';
+import SocialProfileGroup from './SocialProfileGroup';
+import profilePicture from './assets/personPlaceHolder.png';
 
 class App extends Component{
 
@@ -19,6 +21,7 @@ class App extends Component{
 
         return (
             <div>
+                <img src={profilePicture} alt='profile' className="profilePicture" />
                 <h1> The React JS portfolio </h1>
                 <p> Game developer with a passion for AI, Security, and PII</p>
                 <p> Looking forward to different projects being made here!</p>
@@ -40,8 +43,9 @@ class App extends Component{
                   )
 
                 }
+                <SocialProfileGroup />
                 <hr />
-                <Projects />   
+                <ProjectGroup />   
 
             </div>
         )

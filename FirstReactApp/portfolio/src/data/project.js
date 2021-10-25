@@ -22,12 +22,10 @@ const PROJECTS = [
     {
         id: 3,
         title: 'Generalizable Min, Max Tree Application',
-        description: 'This is something I made to help create mix-max trees for any 2 player game! It\'s still in the ServiceWorkerRegistration, though!',
+        description: 'This is something I made to help create mix-max trees for any 2 player game! It\'s still in the works, though!',
         link: 'https://github.com/GamingAIResources/Opponent-AI-Model',
         image: project3
     }
-
-
 ];
 
 export default PROJECTS;

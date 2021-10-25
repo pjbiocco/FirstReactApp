@@ -6,8 +6,6 @@ import PROJECTS from './data/project';
 class Project extends Component {
 
     render() {
-        console.log('this.props', this.props);
-
         const { title, image, description, link} = this.props.project;
 
         return (
@@ -22,7 +20,7 @@ class Project extends Component {
 
 }
 
-class Projects extends Component {
+class ProjectGroup extends Component {
     render() {
         return (
             
@@ -42,4 +40,4 @@ class Projects extends Component {
     }
 }
 
-export default Projects; 
+export default ProjectGroup; 
